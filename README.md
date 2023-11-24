@@ -1,55 +1,53 @@
+#front-exam
 саволи 1 <link rel="stylesheet" href="style.css">
 саволи 2 const element = document.createElement('span');
-element.textContent = 'StartCoding';
+element.textContent = 'Начать кодирование';
 element.title = 'Всплывающая подсказка';
 
-document.body.appendChild(element);
-саволи 3 <a class="btn btn-primary" href="#" role="button">Ok</a>
+document.body.appendChild(элемент);
+саволи 3 <a class="btn btn-primary" href="#" role="button">ОК</a>
 саволи 4 <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        label {
-            display: block;
-            margin-bottom: 10px;
+<голова>
+    <стиль>
+        этикетка {
+            дисплей: блок;
+            нижнее поле: 10 пикселей;
         }
-    </style>
-</head>
-<body>
-    <label>
+    </стиль>
+</голова>
+<тело>
+    <метка>
         <input type="radio" name="fav_language" value="HTML">
         HTML
-    </label>
-    <label>
+    </метка>
+    <метка>
         <input type="radio" name="fav_language" value="CSS">
         CSS
-    </label>
+    </метка>
 
-    <script>
+    <скрипт>
         const radioButtons = document.querySelectorAll('input[name="fav_language"]');
-        radioButtons.forEach(button => {
+        radioButtons.forEach(кнопка => {
             button.addEventListener('change', () => {
-                console.log('Selected language:', button.value);
+                console.log('Выбранный язык:', button.value);
             });
         });
-    </script>
-</body>
+    </скрипт>
+</тело>
 </html>
-саволи 5 
-<input type="text" maxlength="40">
-саволи 6 
-<input type="text" readonly>
-саволи 7 
-function(onclick){
-s1=getElementByid Ecma value
+саволи 5 <input type="text" maxlength="40">
+саволи 6 <input type="text" только для чтения>
+функция саволи 7(onclick){
+s1=getElementByid значение Ecma
 }
-if(s1=true){
+если(s1=истина){
 Alert("Верно!");
-}else if(s1=false);
+} Иначе, если (s1 = ложь);
 {
 alert("Не знаете?ECMAScript!");
 }
-саволи 8 for (let i=0; i>11; i+=2);
+саволи 8 for (пусть i=0; i>11; i+=2);
 cаволи 9 A.const table = document.getElementById('age-table');
 B.const td = table.querySelector('td:first-of-type');
 C.const form = document.querySelector('form[name="search"]');
