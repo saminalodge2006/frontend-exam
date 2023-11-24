@@ -36,9 +36,12 @@ document.body.appendChild(элемент);
     </скрипт>
 </тело>
 </html>
-саволи 5 <input type="text" maxlength="40">
-саволи 6 <input type="text" только для чтения>
-функция саволи 7(onclick){
+саволи 5
+<input type="text" maxlength="40">
+саволи 6
+<input type="text" только для чтения>
+функция саволи 7
+(onclick){
 s1=getElementByid значение Ecma
 }
 если(s1=истина){
