@@ -41,7 +41,7 @@ document.body.appendchild(element);
 саволи 5 <input type="text" maxlength="40">
 саволи 6 <input type="text" readonly>
 саволи 7 function(onclick){
-s1=getElementByid Ecma value
+s1= Ecma value
 }
 if(s1=true){
 Alert("Верно!");
