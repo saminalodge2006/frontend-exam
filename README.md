@@ -1,12 +1,9 @@
-Вопрос 1
-<head>
-  <link rel="stylesheet" type="text/css" hre="style.css">
-</head>
-Вопрос 2
-const element = document.creatElement('span');
+саволи 1 <link rel="stylesheet" href="style.css">
+саволи 2 const element = document.createElement('span');
 element.textContent = 'StartCoding';
-element.title = 'всплывающая подсказка'
-document.body.appendchild(element);
+element.title = 'Всплывающая подсказка';
+
+document.body.appendChild(element);
 саволи 3 <a class="btn btn-primary" href="#" role="button">Ok</a>
 саволи 4 <!DOCTYPE html>
 <html>
@@ -41,7 +38,7 @@ document.body.appendchild(element);
 саволи 5 <input type="text" maxlength="40">
 саволи 6 <input type="text" readonly>
 саволи 7 function(onclick){
-s1= Ecma value
+s1=getElementByid Ecma value
 }
 if(s1=true){
 Alert("Верно!");
